@@ -7,8 +7,8 @@ import subprocess
 sense = sense_emu.SenseHat()
  
 #usuario e senha do dispositivo na plataforma Konkerlabs
-usuario_konkerlabs = "nhcc2232kbm7"
-senha_konkerlabs = "3FFyUGbGFDKf"
+usuario_konkerlabs = "seu_usuario"
+senha_konkerlabs = "sua_senha"
 topico_publish1 = "pub/"+usuario_konkerlabs+"/temperatura"
 topico_publish2 = "pub/"+usuario_konkerlabs+"/umidade"
 topico_publish3 = "pub/"+usuario_konkerlabs+"/pressao"
